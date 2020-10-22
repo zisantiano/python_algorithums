@@ -10,6 +10,6 @@ def insertionSort(nlist):
 
      nlist[position]=currentvalue
 
-nlist = [15,36,13,227,527,421,452,211,702]
+nlist = [155,6536,1653,2267,56527,42211,4652,25411,702854]
 insertionSort(nlist)
 print(nlist)
