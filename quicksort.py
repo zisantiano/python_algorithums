@@ -30,7 +30,7 @@ def quickSort(arr, low, high):
         quickSort(arr, low, pi - 1)
         quickSort(arr, pi + 1, high)
 
-arr = [19, 7, 3, 9, 1, 50]
+arr = [20, 27, 83, 99, 41, 506]
 n = len(arr)
 quickSort(arr, 0, n - 1)
 print("Sorted array is:")
